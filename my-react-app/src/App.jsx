@@ -8,7 +8,7 @@ function App() {
                 textAlign: "center",
                 fontSize: '4rem'
             }
-        }>This is my first deployment of react app 😊...</h1>
+        }>This is my first deployment of react app 😊... </h1>
     </>)
 }
 export default App
