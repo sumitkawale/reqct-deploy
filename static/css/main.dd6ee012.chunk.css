@@ -1,0 +1,2 @@
+.card-container{display:flex;flex-wrap:wrap;justify-content:space-evenly;height:100vh;align-content:space-around}.card{margin:1rem;box-shadow:0 0 1rem #9c9c9c;transition:all .2s}.card:hover{text-decoration:none;-webkit-transform:scale(1.025);transform:scale(1.025);box-shadow:0 0 1.5rem #242424}
+/*# sourceMappingURL=main.dd6ee012.chunk.css.map */
