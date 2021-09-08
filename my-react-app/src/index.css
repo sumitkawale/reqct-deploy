@@ -1,0 +1,18 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-content: space-around;
+}
+
+.card{
+    margin: 1rem;
+    box-shadow: 0 0 1rem rgb(156, 156, 156);
+    transition: all 0.2s;
+}
+.card:hover{
+    text-decoration: none;
+    transform: scale(1.025);
+    box-shadow: 0 0 1.5rem rgb(36, 36, 36);
+}

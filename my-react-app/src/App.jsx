@@ -1,14 +1,45 @@
 import React from 'react'
+import Card from './Card'
+import './index.css'
 function App() {
     return (<>
-        <h1 style={
-            {
-                color: 'blueviolet',
-                padding: "5rem",
-                textAlign: "center",
-                fontSize: '4rem'
-            }
-        }>This is my first deployment of react app 😊... </h1>
+        <div className="card-container">
+            <Card
+                color="primary"
+                header="on github"
+                title="Calculator"
+                description="The calculator is responsive hence you can use it in your mobile also. It is developed by using HTML, CSS and Pure JavaScript"
+                link="https://my-code-learning-area.github.io/learningCSS.github.io/calculator.html"
+            />
+            <Card
+                color="danger"
+                header="on github"
+                title="Top Colleges"
+                description="Here you can check TOP colleges in maharashtra: pune, mumbai, etc. You can see details also."
+                link="https://my-code-learning-area.github.io/learningCSS.github.io/TopColleges.html"
+            />
+            <Card
+                color="warning"
+                header="on github"
+                title="Online Code Editor"
+                description="the website is specially developed for those students who want to learn html, css or javascript but do not have any pc. You can make basic website using html, css and javascript here."
+                link="https://sumitkawale.github.io/code.github.io/index.html"
+            />
+            <Card
+                color="info"
+                header="on github"
+                title="Top Colleges"
+                description="Here you can check TOP colleges in maharashtra: pune, mumbai, etc. You can see details also."
+                link="https://sumitkawale.github.io/WifiMessangerDocumentation.github.io/"
+            />
+            <Card
+                color="dark"
+                header="on github"
+                title="First React Deployed App"
+                description="Here you can get list of all my websites. this website are publicly available for everyone. Those all website were just developed for practicing and learning."
+                link="https://sumitkawale.github.io/reqct-deploy/"
+            />
+        </div>
     </>)
 }
 export default App
