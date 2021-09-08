@@ -23,8 +23,8 @@ const CardData = [
     {
         color: "info",
         header: "on github",
-        title: "Top Colleges",
-        description: "Here you can check TOP colleges in maharashtra: pune, mumbai, etc. You can see details also.",
+        title: "Wifi Messenger Documentation",
+        description: "The wifi-messenger app is for communicating between 2 devices. This app available on PlayStore for free. In documentation, user will learn how to use that app",
         link: "https://sumitkawale.github.io/WifiMessangerDocumentation.github.io/",
     },
     {
