@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reqct-deploy/static/css/main.d7e16dda.chunk.css",
-    "main.js": "/reqct-deploy/static/js/main.754febc8.chunk.js",
-    "main.js.map": "/reqct-deploy/static/js/main.754febc8.chunk.js.map",
+    "main.js": "/reqct-deploy/static/js/main.33eb100c.chunk.js",
+    "main.js.map": "/reqct-deploy/static/js/main.33eb100c.chunk.js.map",
     "runtime-main.js": "/reqct-deploy/static/js/runtime-main.ee1d64f9.js",
     "runtime-main.js.map": "/reqct-deploy/static/js/runtime-main.ee1d64f9.js.map",
     "static/js/2.a613b2a1.chunk.js": "/reqct-deploy/static/js/2.a613b2a1.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.ee1d64f9.js",
     "static/js/2.a613b2a1.chunk.js",
     "static/css/main.d7e16dda.chunk.css",
-    "static/js/main.754febc8.chunk.js"
+    "static/js/main.33eb100c.chunk.js"
   ]
 }
