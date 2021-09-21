@@ -12,18 +12,20 @@ function App() {
 
     const onSubmit = event => {
         event.preventDefault()
-        updateTodoList(previousValue => {
+        if (input.task.length > 0) {
+            updateTodoList(previousValue => {
 
-            let todoList = [
-                input.task,
-                ...previousValue,
-            ]
-            localStorage.todoList = JSON.stringify(todoList)
+                let todoList = [
+                    input.task,
+                    ...previousValue,
+                ]
+                localStorage.todoList = JSON.stringify(todoList)
 
-            return todoList
-        })
+                return todoList
+            })
 
-        updateInput(previousValue => ({ ...previousValue, task: "" }))
+            updateInput(previousValue => ({ ...previousValue, task: "" }))
+        }
         document.getElementById("input").focus()
     }
 
