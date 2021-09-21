@@ -28,10 +28,17 @@ const CardData = [
         link: "https://sumitkawale.github.io/WifiMessangerDocumentation.github.io/",
     },
     {
+        color: "success",
+        header: "on github",
+        title: "To-Do List | React app",
+        description: "Here you can add your todo tasks. This react website is publicly available for everyone. The Task List is stored in your browser.",
+        link: "https://sumitkawale.github.io/reqct-deploy//",
+    },
+    {
         color: "secondary",
         header: "on github",
         title: "First React Deployed App",
-        description: "Here you can get list of all my websites. this website are publicly available for everyone. Those all website were just developed for practicing and learning.",
+        description: "Here you can get list of all my websites. This website are publicly available for everyone. Those all website were just developed for practicing and learning.",
         link: "https://sumitkawale.github.io/reqct-deploy/",
     },
 ]
