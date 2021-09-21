@@ -49,7 +49,7 @@ function App() {
                         <h1>To-Do List</h1>
                     </center>
                     <center className="header">
-                        <input id="input" type="text" name="task" value={input.task} onChange={onChange} /><button type="submit" className="add-btn"></button>
+                        <input ariaAutocomplete="false" autoComplete="false" id="input" type="text" name="task" value={input.task} onChange={onChange} /><button type="submit" className="add-btn"></button>
                     </center>
                     <hr />
                     <div className="body">
