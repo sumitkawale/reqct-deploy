@@ -64,6 +64,7 @@ input {
     border-radius : 8px;
     letter-spacing: 1px;
     border        : 2px solid var(--blue);
+    text-align: center;
 }
 
 input:focus,
