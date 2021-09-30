@@ -7,6 +7,13 @@ const CardData = [
         link: "https://my-code-learning-area.github.io/learningCSS.github.io/calculator.html",
     },
     {
+        color: "success",
+        header: "on github",
+        title: "Download Syllabus",
+        description: "Here you can download the syllabus copy of Computer Engineering (Diploma MSBTE), easy and simple download. Only for CO",
+        link: "https://sumitkawale.github.io/diploma-syllabus.github.io/",
+    },
+    {
         color: "danger",
         header: "on github",
         title: "Top Colleges",
