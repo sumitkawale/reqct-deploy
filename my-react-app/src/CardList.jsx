@@ -9,9 +9,16 @@ const CardData = [
     {
         color: "dark",
         header: "on github",
-        title: "Download Syllabus",
-        description: "Here you can download the syllabus copy of Computer Engineering (Diploma MSBTE), easy and simple download. Only for CO",
+        title: "MSBTE Download Syllabus",
+        description: "Here you can download the syllabus copy of Computer Engineering (Diploma MSBTE), easy and simple download. Only for CO department",
         link: "https://sumitkawale.github.io/diploma-syllabus.github.io/",
+    },
+    {
+        color: "dark",
+        header: "on github",
+        title: "B.E Download Syllabus",
+        description: "Here you can download the syllabus copy of Information Technology (B.E SPPU), easy and simple download. Only for IT department",
+        link: "https://sumitkawale.github.io/B.E-Syllabus.github.io/",
     },
     {
         color: "danger",
